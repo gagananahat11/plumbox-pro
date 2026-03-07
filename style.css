@@ -55,16 +55,19 @@ body {
     font-weight: 600;
     transition: 0.3s;
 }
-.menu-dropdown-text{
+
+.menu-dropdown-text {
     text-decoration: none;
     color: black;
     font-weight: 600;
     transition: 0.3s;
 
 }
-.menu-dropdown-text{
+
+.menu-dropdown-text {
     color: #1f75ff;
 }
+
 .nav-links a:hover {
     color: #1f75ff;
 }
@@ -112,8 +115,9 @@ body {
     font-size: 22px;
     position: absolute;
     top: 0%;
-    color:black;
+    color: black;
 }
+
 .hero-text h1 {
     font-size: 80px;
     font-weight: 800px;
@@ -140,9 +144,11 @@ body {
     font-size: 20px;
     margin-bottom: 25px;
 }
+
 .input-form {
     margin-bottom: 18px;
 }
+
 .text-field {
     width: 100%;
     padding: 20px;
@@ -152,12 +158,42 @@ body {
     background-color: #f2f2f226;
     margin-top: 10px;
 }
-.text-field option{
-    color:white;
+.name-field{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #f2f2f226;
+    margin-top: 10px;
 }
-.input-form label{
-  padding-bottom: 5px;
+.phone-field{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #f2f2f226;
+    margin-top: 10px;
 }
+.service-field{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #f2f2f226;
+    margin-top: 10px;
+}
+
+.service-field option {
+    color: white;
+}
+
+.input-form label {
+    padding-bottom: 5px;
+}
+
 .form-submit-button {
     width: 50%;
     padding: 15px;
@@ -202,6 +238,7 @@ body {
 .up {
     font-size: 36px;
     font-weight: 600;
+    width: 60%;
 }
 
 .down {
@@ -274,6 +311,7 @@ body {
 .service-card:hover {
     transform: translateY(-8px);
 }
+
 .icon {
     width: 70px;
     height: 70px;
@@ -393,9 +431,10 @@ h3 {
 }
 
 
-.third-section{
+.third-section {
     margin-top: 100px;
 }
+
 .values-given {
     grid-column-gap: 40px;
     grid-row-gap: 40px;
@@ -466,72 +505,76 @@ h3 {
 .slides-wrapper {
     transition: transform 0.5s ease;
 }
+
 .footer {
-  background: linear-gradient(180deg, #020617 0%, #000000 100%);
-  color: white;
-  padding: 80px 0 20px;
+    background: linear-gradient(180deg, #020617 0%, #000000 100%);
+    color: white;
+    padding: 80px 0 20px;
 }
 
 .container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 30px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
 }
+
 .footer-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
 }
 
 .footer-about p {
-  margin-top: 15px;
-  color: #a1a1aa;
+    margin-top: 15px;
+    color: #a1a1aa;
 }
 
 .achievement {
-  margin-top: 25px;
-  font-weight: 600;
+    margin-top: 25px;
+    font-weight: 600;
 }
 
 .badges img {
-  width: 70px;
-  margin-right: 10px;
-  margin-top: 15px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 15px;
 }
 
 .footer-links h3 {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-links a {
-  display: block;
-  color: #a1a1aa;
-  text-decoration: none;
-  margin-bottom: 12px;
-  transition: 0.3s;
+    display: block;
+    color: #a1a1aa;
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: 0.3s;
 }
 
 .footer-links a:hover {
-  color: #3b82f6;
+    color: #3b82f6;
 }
+
 .footer-contact p {
-  margin-bottom: 15px;
-  color: #a1a1aa;
+    margin-bottom: 15px;
+    color: #a1a1aa;
 }
+
 .btn.white {
-  background: white;
-  color: black;
+    background: white;
+    color: black;
 }
 
 .btn.blue {
-  background: #3b82f6;
-  color: white;
+    background: #3b82f6;
+    color: white;
 }
 
 .footer-bottom {
-  border-top: 1px solid #1f2937;
-  margin-top: 50px;
-  padding-top: 20px;
-  text-align: center;
-  color: #a1a1aa;
+    border-top: 1px solid #1f2937;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+    color: #a1a1aa;
 }
